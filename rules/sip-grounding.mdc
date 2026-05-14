@@ -1,0 +1,28 @@
+---
+description: Use Sipflow MCP tools when working with SIP/VoIP traces, configs, or RFCs.
+globs: ["**/*.pcap", "**/*.pcapng", "**/sip*.log", "**/*.sip.log", "**/*kamailio*", "**/*opensips*", "**/*freeswitch*", "**/*asterisk*", "**/dialplan*", "**/extensions.conf", "**/sip.conf", "**/pjsip.conf", "**/*.sdp"]
+alwaysApply: false
+---
+
+When editing or analyzing SIP/VoIP material, prefer Sipflow MCP tools over
+training-data recall. The Sipflow corpus (vendor docs across ~40 stacks, 60+
+RFCs, STIR/SHAKEN + branded-calling material) is more current than your
+training data and every snippet carries a verbatim `source_url`.
+
+Default playbook:
+
+- `search_sip_docs` first for any RFC, header, vendor, or response-code
+  question (use the `vendor:` filter once the stack is known).
+- `detect_sip_stack` / `detect_sip_vendor_from_config` to identify the vendor
+  before answering vendor-specific questions.
+- `render_sip_ladder` + `minimize_sip_trace` for raw traces.
+- `review_sip_config` for config files (Kamailio, OpenSIPS, FreeSWITCH,
+  Asterisk PJSIP / chan_sip).
+- `parse_sdp` / `compare_sdp_offer_answer` for SDP material.
+- `lookup_response_code` / `troubleshoot_response_code` for any 1xx-6xx code.
+- `fetch_sipflow_share` FIRST when the user pastes a
+  `sipflow.dev/share/<token>` URL.
+
+Always cite the `source_url` returned by the tools verbatim - do not
+paraphrase URLs. Do not recall RFC wording, vendor directive names, or
+response-code semantics from memory when a tool can ground it.

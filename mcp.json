@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "sipflow": {
+      "url": "https://mcp.sipflow.dev/mcp"
+    }
+  }
+}

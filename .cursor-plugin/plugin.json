@@ -1,0 +1,22 @@
+{
+  "name": "sipflow",
+  "version": "0.1.0",
+  "description": "SIP/VoIP/telecom grounding for your editor: vendor docs, RFCs, STIR/SHAKEN, trace and config analysis.",
+  "author": { "name": "Sipflow", "email": "hello@sipflow.dev" },
+  "homepage": "https://sipflow.dev",
+  "repository": "https://github.com/sipflow/cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "sip",
+    "voip",
+    "telecom",
+    "rfc",
+    "stir-shaken",
+    "kamailio",
+    "freeswitch",
+    "asterisk",
+    "webrtc",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg"
+}
