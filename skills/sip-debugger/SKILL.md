@@ -100,5 +100,5 @@ Agent mode to invoke them.
 
 ## Where to learn more
 
-- Live app: <https://sipflow.dev>
+- Live app: <https://www.sipflow.dev>
 - MCP endpoint: <https://mcp.sipflow.dev/mcp>

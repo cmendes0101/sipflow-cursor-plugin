@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "SIP/VoIP/telecom grounding for your editor: vendor docs, RFCs, STIR/SHAKEN, trace and config analysis.",
   "author": { "name": "Sipflow", "email": "hello@sipflow.dev" },
-  "homepage": "https://sipflow.dev",
-  "repository": "https://github.com/sipflow/cursor-plugin",
+  "homepage": "https://www.sipflow.dev",
+  "repository": "https://github.com/cmendes0101/sipflow-cursor-plugin",
   "license": "MIT",
   "keywords": [
     "sip",

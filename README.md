@@ -67,8 +67,8 @@ appear in **Settings -> Features -> Model Context Protocol**, the skill in
 
 ## Links
 
-- App: <https://sipflow.dev>
-- MCP install page: <https://sipflow.dev/tools/mcp>
+- App: <https://www.sipflow.dev>
+- MCP install page: <https://www.sipflow.dev/tools/mcp>
 - MCP endpoint: <https://mcp.sipflow.dev/mcp>
 
 ## License
