@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.sipflow/sipflow",
+  "title": "Sipflow",
+  "description": "SIP/VoIP/telecom grounding for AI agents: vendor docs across ~40 stacks, 60+ RFCs, STIR/SHAKEN and branded-calling material, trace and config analysis. Read-only.",
+  "websiteUrl": "https://www.sipflow.dev",
+  "repository": {
+    "url": "https://github.com/cmendes0101/sipflow-cursor-plugin",
+    "source": "github"
+  },
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sipflow.dev/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "homepage": "https://www.sipflow.dev",
+      "install_page": "https://www.sipflow.dev/tools/mcp"
+    }
+  }
+}
