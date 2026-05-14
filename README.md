@@ -4,6 +4,8 @@
 > 60+ RFCs, STIR/SHAKEN, trace and config analysis - every answer cites a
 > verbatim `source_url`.
 
+[![smithery badge](https://smithery.ai/badge/sipflow/sipflow)](https://smithery.ai/servers/sipflow/sipflow)
+
 Sipflow is a hosted, read-only [Model Context Protocol](https://modelcontextprotocol.io)
 server. It gives your editor or agent ~20 tools that ground SIP/VoIP answers in
 a curated corpus instead of training-data recall.
